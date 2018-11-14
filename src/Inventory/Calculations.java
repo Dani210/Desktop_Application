@@ -5,10 +5,15 @@
  */
 package Inventory;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author sasch
  */
 public class Calculations {
-    
+    public ArrayList<Person> findPeopleNearby(double radius,Gender gender,int age){
+        
+    }
+            
 }
