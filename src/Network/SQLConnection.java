@@ -3,17 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Inventory;
-
-import java.util.ArrayList;
-
+package Network;
+import java.sql.*;
 /**
  *
  * @author sasch
  */
-public class Calculations {
-    public ArrayList<Person> findPeopleNearby(double radius,Gender gender,int age){
-        
-    }
-            
+public class SQLConnection {
+    private final String Connection;
 }

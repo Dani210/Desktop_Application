@@ -3,20 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package bl;
 
-package Network;
-import java.util.List;
-import java.sql.*;
+import java.util.ArrayList;
 
 /**
  *
  * @author sasch
  */
-public class Net {
-    public void write(Connection connection,List<Object> list){
+public class Calculations {
+    public ArrayList<Person> findPeopleNearby(double radius,Gender gender,int age){
         
     }
-    public List<Object> read(){
-        
-    }
+            
 }
