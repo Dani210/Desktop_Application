@@ -8,19 +8,10 @@ public class CLI
 	
 	public static void main(String[] args)
 	{
+		//RUN IS NEEDED
 		
 	}
-	
-	private void register()
-	{
-		
-	}
-	
-	private void logIn()
-	{
-		
-	}
-	
+
 	public String input()
 	{
 		return new Scanner(System.in).nextLine();
@@ -30,4 +21,9 @@ public class CLI
 	{
 		System.out.print(output);
 	}	
+	
+	public void errorOutput(Exception e)
+	{
+		System.err.println("Fehler: " +e.toString());
+	}
 }
