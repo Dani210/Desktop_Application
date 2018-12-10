@@ -9,7 +9,6 @@ public class CLI
 	public static void main(String[] args)
 	{
 		//RUN IS NEEDED
-		
 	}
 
 	public String input()
